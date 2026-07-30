@@ -17,4 +17,4 @@ This project demonstrates the configuration of an autonomous AI Agent built in Z
        └── Formulates Plan: Recommended Action Steps
        │
        ▼
-[Output Notification: Slack / Email Alert]
+[Airtable & Output Notification: Slack / Email Alert]
