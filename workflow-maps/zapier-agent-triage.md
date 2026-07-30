@@ -6,3 +6,15 @@ This project demonstrates the configuration of an autonomous AI Agent built in Z
 ---
 
 ## Workflow Architecture
+
+```text
+[Gmail Trigger: New Dispute Email]
+       │
+       ▼
+[AI Agent / AI by Zapier: Risk Reasoning & Evaluation]
+       ├── Classifies Risk: Routine | Moderate | High-Risk Litigation
+       ├── Summarizes Case: 2–3 Sentence Core Summary
+       └── Formulates Plan: Recommended Action Steps
+       │
+       ▼
+[Output Notification: Slack / Email Alert]
